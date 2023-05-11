@@ -28,6 +28,7 @@ function ausgabeNamen()
     console.log("Hallo", firstName, "!");
    
 
+    
 }
 
 // console.log(firstName); // Fehler: Scope!
