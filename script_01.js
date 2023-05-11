@@ -6,7 +6,7 @@
 
 
 // Funktionsaufruf (call)
-test();
+// test();
 
 // Funktionsrumpf (body) | callee
 function test()
@@ -15,8 +15,19 @@ function test()
 }
 
 
+/***** Funktionen 02a *****/
+// 2a. Parametrisierung + Datenübergabe von INNEN
+ausgabeNamen();
 
+function ausgabeNamen() 
+{
 
+      // what happens in VEGAS
 
+    let firstName = "Peter";
+    console.log("Hallo", firstName, "!");
+   
 
+}
 
+// console.log(firstName); // Fehler: Scope!
