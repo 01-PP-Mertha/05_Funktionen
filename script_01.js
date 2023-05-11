@@ -36,8 +36,8 @@ function ausgabeNamen()
 /***** Funktionen 02b *****/
 // 2b. Parametrisierung + Datenübergabe von AUSSEN
 
-ausgabeNamenParam("Peter");
-ausgabeNamenParam("Claudia")
+// ausgabeNamenParam("Peter");
+// ausgabeNamenParam("Claudia")
 
 
 function ausgabeNamenParam(firstName) 
@@ -47,3 +47,19 @@ function ausgabeNamenParam(firstName)
     
     
 }
+
+
+
+/***** Funktionen 02c *****/
+// 2c. Mehrere Parameter
+ausgabeNamenParams("Peter", "Zwegert");
+ausgabeNamenParams("Claudia", 'Schmidt')
+ausgabeNamenParams(prompt("Geben sie ihren Vornamen ein:"),prompt("Geben sie ihren Nachnamen ein:"))
+
+function ausgabeNamenParams(firstName, familyName) 
+{
+   console.log("Hallo", firstName, familyName,"!");
+
+}
+
+
